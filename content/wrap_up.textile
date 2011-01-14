@@ -26,3 +26,4 @@ References
 
 * "CSS3 Generator":http://css3generator.com/
 * "Dive Into HTML5":http://diveintohtml5.org/
+* "Chris Maxwell's HTML5 Links":http://chrismaxwell.com/bookmarks/html5.html

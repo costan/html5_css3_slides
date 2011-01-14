@@ -7,6 +7,7 @@ h1. Introduction
 h1. Fun Stuff
 * "New Markup":markup.html
 * "New APIs":apis.html
+* "CSS 3":css3.html
 
 h1. Wrap-Up
 
