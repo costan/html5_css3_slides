@@ -12,11 +12,19 @@ h1. Which One Looks Better?
 
 p{text-align: center; }. @border-radius@
 
-h1. Which One Looks Better?
+h1. Demo: CSS3 Controls
 
+p{font-size: 2em}. "submission site :)":https://alg.csail.mit.edu
 
+h1. Demo: CSS3 Controls
+
+:code code/controls.css[lang=css]
 
 h1. Demo: CSS3 Generator
 
 p{font-size: 2em}. "css3generator.com":http://css3generator.com/
+
+h1. Demo: CSS3 Transformations
+
+p{font-size: 2em}. "westciv.com/tools/transforms":http://westciv.com/tools/transforms/
 
