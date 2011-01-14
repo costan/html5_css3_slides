@@ -1,0 +1,56 @@
+h1. APIs
+
+h1. Better DOM APIs
+
+* @querySelectorAll@ - all elements matching CSS selector
+* @querySelector@ - first element matching CSS selector
+* @getComputedStyle@ - computed CSS style properties, absolute metrics
+
+:inlinecode[lang=javascript]
+getComputedStyle(document.querySelector('body')).width
+:endinlinecode
+
+* @getElementsByClassName@ - self-explanatory; faster than @querySelector@ and @querySelectorAll@
+
+
+h1. Local Storage
+
+:code code/localstorage.js[lang=javascript]
+
+* @localStorage.getItem(key)@ and @localStorage.setItem(key, value)@
+* only stores strings, you need to parse other value types
+
+<a href="../code/localstorage.html">Demo</a> (only Chrome has local storage for files)
+
+
+h1. Geolocation
+
+:code code/geolocation.js[lang=javascript]
+
+<a href="../code/geolocation.html">Demo</a>, or see a fancier one at "HTML5demos":http://html5demos.com/geo
+
+
+h1. Offline Access
+
+:inlinecode[lang=html]
+<!DOCTYPE html>
+<html manifest="/cache.manifest">
+</html>
+:endinlinecode
+
+Serve the manifest as MIME type @text/cache-manifest@
+:code code/cache.manifest[lang=html]
+
+Events on @window.applicationCache@
+
+
+h1. Many More
+
+* @<canvas>@ (next lecture)
+* Browser history (next lecture)
+* Drag and drop
+* File API
+* Undo management
+* WebGL - OpenGL-like API for game graphics
+* WebSockets - realtime updates
+* Web Workers

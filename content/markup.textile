@@ -1,0 +1,116 @@
+h1. New Markup
+
+* Forms 2.0
+* Rich-text editors
+* Semantic tags
+* Custom attributes
+
+h1. Forms 2.0
+
+Let's improve this form.
+
+:code code/register_plain.html[lang=html]
+
+h1. New Form Fields
+
+What's better about this version?
+
+:code code/input_email.html[lang=html]
+
+Hint: imagine using it on an iPhone.
+
+h1. New Form Fields
+
+|@type="search"@|<input type="search" />|
+|@type="number" min="0" max="10" step="2"@|<input type="number" min="0" max="10" step="2" value="6"/>|
+|@type="range" min="0" max="10" step="2"@|<input type="range" />|
+|@type="tel"@|<input type="tel" />|
+|@type="url"@|<input type="url" />|
+|@type="email"@|<input type="email" />|
+|@type="date"@|<input type="date" value="2010-12-29" />|
+|@type="time"@|<input type="time" value="10:00" />|
+
+h1. New Form Attributes: @placeholder@
+
+:code code/placeholder.html[lang=html]
+
+h1. New Form Attributes: @placeholder@
+
+:include code/placeholder.html
+
+h1. New Form Attributes: @autofocus@
+
+:code code/autofocus.html[lang=html]
+
+h1. Form Validation: @required@
+
+:code code/required.html[lang=html]
+
+h1. Form Validation: @pattern@
+
+:code code/pattern.html[lang=html]
+
+@pattern@ takes regular expressions.
+
+h1. Form Demos
+
+* <a href="../code/autofocus.html">autofocus</a>
+* <a href="../code/required.html">required</a> (Firefox 4)
+* <a href="../code/pattern.html">pattern</a> (Firefox 4)
+
+h1. Rich Text Editor
+
+:code code/contenteditable.html[lang=html]
+
+h1. Rich Text Editor
+
+Sadly, @contentEditable="true"@ elements are *not* form fields.
+* not automatically submitted
+* no @value@ property; use DOM properties like @innerHTML@
+* no @onchange@ events; use low-level events like @onkeypress@ or @oninput@
+* unnatural API for editing via @execCommand@
+
+Full demo at "quirksmode":http://www.quirksmode.org/dom/execCommand/
+
+h1. Semantic Tags
+
+:inlinecode[lang=html]
+<div id="header">
+  <div id="navigation">
+     ...
+  </div>
+</div>
+<div id="footer">
+  ...
+</div>
+:endinlinecode
+
+h1. Semantic Tags
+
+:inlinecode[lang=html]
+<header>
+  <nav>
+     ...
+  </nav>
+</header>
+<footer>
+  ...
+</footer>
+:endinlinecode
+
+h1. Semantic Tags
+
+| @<article>@ | @<aside>@   | @<header>@     |
+| @<hgroup>@  | @<footer>@  | @<section>@    |
+| @<nav>@     | @<figure>@  | @<figcaption>@ |
+| @<mark>@    | @<summary>@ |                |
+
+h1. Custom Attributes
+
+:code code/data_attributes.html[lang=html]
+
+* @data-@ prefix reserved for application-specific attributes
+* Documents with @data-@ attributes pass HTML5 validators
+* @data-@ values wrapped in @dataset@ DOM property
+
+:code code/data_attributes.js[lang=javascript]

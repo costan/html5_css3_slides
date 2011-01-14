@@ -1,0 +1,25 @@
+h1. Introduction
+
+h1. Your Instructors
+
+* Victor Costan
+
+h1. What is HTML5?
+
+Depending on who you ask, any of the following:
+* WHATWG standard
+* W3C standard
+* All new standards related to Web applications
+** CSS3
+** Geolocation
+** Javascript 1.5
+** Indexed Database
+** Web SQL Database
+** WebGL
+** Web Sockets
+** Web Workers
+
+h1. Why Care
+
+* Short-term: *easy* methods for *quick* UI touch-ups
+* Long-term: beautiful and usable Web application that work everywhere
