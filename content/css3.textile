@@ -1,6 +1,22 @@
 h1. CSS3
 
-h1. Don't Do It By
+h1. Remember: Progressive Enhancement
+
+p{font-size: 3em}. Think elevators vs. escalators.
+
+h1. Which One Looks Better?
+
+!{border-radius: 0.5em; float:right; width: 40%; }http://graph.facebook.com/pwnall/picture?type=large!
+
+!{width: 40%; }http://graph.facebook.com/pwnall/picture?type=large!
+
+p{text-align: center; }. @border-radius@
+
+h1. Which One Looks Better?
 
 
-http://css3generator.com/ 
+
+h1. Demo: CSS3 Generator
+
+p{font-size: 2em}. "css3generator.com":http://css3generator.com/
+

@@ -25,5 +25,6 @@ Slides and Code
 References
 
 * "CSS3 Generator":http://css3generator.com/
+* "Other CSS3 Generators":http://westciv.com/tools/
 * "Dive Into HTML5":http://diveintohtml5.org/
 * "Chris Maxwell's HTML5 Links":http://chrismaxwell.com/bookmarks/html5.html
