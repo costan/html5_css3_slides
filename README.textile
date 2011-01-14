@@ -1,6 +1,6 @@
-h1. Server Admin and Deployment Slides
+h1. HTML5 and CSS3 Slides
 
-This is the source code for a slide deck used in a 1-hour presentation on Ruby on Rails application deployment.
+This is the source code for a slide deck used in a 1-hour presentation on HTML5 and CSS3.
 
 h2. Build Instructions
 
